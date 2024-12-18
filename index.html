@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters In-Memory Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        p {
+            margin: 20px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .description {
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Chloe In-Memory Database</h1>
+</header>
+
+<main>
+    <p>In-memory databases are fast because they store data directly in the system's memory, eliminating the latency of disk-based storage. Elastic is a great choice due to its scalable and reliable architecture, making it well-suited for real-time analytics and search operations.</p>
+
+    <unl>
+        <li><a href="http://localhost:5601/login?next=%2F" target="_blank"><strong>Kibana</strong></a> - <span class="description">Dashboard</span></li>
+        <li><a href="http://localhost:5601/app/monitoring" target="_blank"><strong>Monitoring</strong></a> - <span class="description">Health Check</span></li>
+        <li><a href="http://localhost:5601/app/logs/stream" target="_blank"><strong>Log Stream</strong></a> - <span class="description">Live Logs</span></li>
+        <li><a href="http://localhost:5601/app/observability/overview" target="_blank"><strong>Observability</strong></a> - <span class="description">Live Logs</span></li>
+    </ul>
+
+    <ol>
+        <li>
+            Items are added to 
+            <a href="http://localhost:5601/app/discover" target="_blank">
+                Discover App
+            </a>
+        </li>
+        <li>
+            Visualize them! 
+            <a href="http://localhost:5601/app/lens#/?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))" target="_blank">
+                Lens Visualization
+            </a>
+            <br>
+            Vendor: 
+            <a href="http://localhost:5601/app/lens#/?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-22m,to:now))" target="_blank">
+                Vendor Lens
+            </a>
+        </li>
+    </ol>
+    
+</main>
+
+</body>
+</html>
